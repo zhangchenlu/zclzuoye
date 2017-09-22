@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画板</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/Palette.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<main>
+		<div class="left">
+			<div class="xingzhuang">形状</div>
+			<div class="lab">
+				<label for="" class="iconfont tools" active='true' id='line'>&#xe64b;</label>
+				<label for="" class="iconfont tools" id='dash'>&#xe672;</label>
+				<label for="" class="iconfont tools" id='more'>&#xe603;</label>
+				<label for="" class="iconfont tools" id='pen'>&#xe678;</label>
+				<label for="" class="iconfont tools" id='wujiao'>&#xe63b;</label>
+				<label for="" class="iconfont tools" id='circle'>&#xe646;</label>
+				<label for="" class="iconfont tools" id='four'>&#xe61a;</label>
+			</div>
+
+
+
+			<div class="xingzhuang xingzhuang1">工具</div>
+			<div class="lab">
+				<label for="" class="iconfont style" id="stroke">&#xe795;</label>
+				<label for=""><input type="color"></label>
+				<label for="" class="iconfont style" id="fill">&#xe649;</label>
+				<label for=""><input type="color"></label>
+				<label for="" class="iconfont xiang">&#xe67f;</label>
+				<label for="" class="iconfont tools" id="font">&#xe6e9;</label>
+				<label for="" class="iconfont clips">&#xe656;</label>
+			</div>
+		</div>
+		<div class="right">
+			<div class="top"></div>
+			<div class="bottom">
+				<canvas width="1236" height="584"></canvas>
+				<div class="eraser"></div>
+				<div class="mask"></div>
+				<div class="clip"></div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
